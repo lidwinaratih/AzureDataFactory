@@ -1,0 +1,19 @@
+{
+	"name": "BINARY_ADLS_Lidwina",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_Lidwina",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "BINARY"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			}
+		}
+	}
+}
