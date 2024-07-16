@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dflidwina"
+		},
+		"ADLS_Lidwina_accountKey": {
+			"value": ""
+		},
+		"AzureSql_Lidwina_password": {
+			"value": ""
+		},
+		"sql_lidwina_password": {
+			"value": ""
+		},
+		"ADLS_Lidwina_properties_typeProperties_url": {
+			"value": "https://storageaccountlidwina.dfs.core.windows.net/"
+		},
+		"AzureSql_Lidwina_properties_typeProperties_server": {
+			"value": "lidwinaratih.database.windows.net"
+		},
+		"AzureSql_Lidwina_properties_typeProperties_database": {
+			"value": "data_Development"
+		},
+		"AzureSql_Lidwina_properties_typeProperties_userName": {
+			"value": "admin_lidwina"
+		},
+		"sql_lidwina_properties_typeProperties_server": {
+			"value": "lidwinaratih.database.windows.net"
+		},
+		"sql_lidwina_properties_typeProperties_database": {
+			"value": "data_Development"
+		},
+		"sql_lidwina_properties_typeProperties_userName": {
+			"value": "admin_lidwina"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
