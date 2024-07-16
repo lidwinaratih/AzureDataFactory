@@ -61,6 +61,7 @@
 					},
 					"sink": {
 						"type": "SqlServerSink",
+						"preCopyScript": "IS EXISTS(SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Ratings' AND TABLE_SCHEMA = 'dbo')\nBEGIN\nTRUNCATE TABLE dbo.Ratings\nEND",
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false
 					},
