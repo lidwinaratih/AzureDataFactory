@@ -1,0 +1,68 @@
+{
+	"name": "CSV_ADLS_Lidwina_CustomerSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_Lidwina",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ADLS"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "CustomerSource.csv",
+				"folderPath": "data",
+				"fileSystem": "development"
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "202",
+				"type": "String"
+			},
+			{
+				"name": "Prop_1",
+				"type": "String"
+			},
+			{
+				"name": "A.",
+				"type": "String"
+			},
+			{
+				"name": "Francesca",
+				"type": "String"
+			},
+			{
+				"name": "Leonetti",
+				"type": "String"
+			},
+			{
+				"name": "Prop_5",
+				"type": "String"
+			},
+			{
+				"name": "Two-Seater Bikes",
+				"type": "String"
+			},
+			{
+				"name": "adventure-works\\\\jillian0",
+				"type": "String"
+			},
+			{
+				"name": "a0@adventure-works.com",
+				"type": "String"
+			},
+			{
+				"name": "645-555-0193",
+				"type": "String"
+			}
+		]
+	}
+}
