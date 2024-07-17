@@ -82,7 +82,7 @@
 			"file_name": {
 				"type": "Array",
 				"defaultValue": [
-					"['document.json','example_json.json']"
+					"example_json.json"
 				]
 			}
 		},
