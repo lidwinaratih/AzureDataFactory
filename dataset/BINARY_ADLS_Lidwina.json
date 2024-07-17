@@ -1,27 +1,22 @@
 {
-	"name": "CSV_ADLS_Lidwina_CustomerSource",
+	"name": "BINARY_ADLS_Lidwina",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ADLS_Lidwina",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "ADLS"
+			"name": "BINARY"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Binary",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "CustomerSource.csv",
 				"folderPath": "data",
 				"fileSystem": "development"
-			},
-			"columnDelimiter": "|",
-			"escapeChar": "\\",
-			"firstRowAsHeader": false,
-			"quoteChar": "\""
-		},
-		"schema": []
+			}
+		}
 	}
 }
