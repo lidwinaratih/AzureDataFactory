@@ -77,6 +77,9 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[SCD_Type_1_Customer]"
+				},
 				"linkedServiceName": {
 					"referenceName": "sql_lidwina",
 					"type": "LinkedServiceReference"
