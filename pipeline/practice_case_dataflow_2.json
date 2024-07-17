@@ -83,11 +83,17 @@
 						"additionalColumns": [
 							{
 								"name": "InsertedDate",
-								"value": "@utcnow()"
+								"value": {
+									"value": "@utcnow()",
+									"type": "Expression"
+								}
 							},
 							{
 								"name": "ModifiedDate",
-								"value": "@utcnow()"
+								"value": {
+									"value": "@utcnow()",
+									"type": "Expression"
+								}
 							}
 						],
 						"queryTimeout": "02:00:00",
